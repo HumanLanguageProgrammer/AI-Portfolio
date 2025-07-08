@@ -1,0 +1,19 @@
+// Sample Hello World - Code Object
+// Type: Product | Product: Sample | Lifecycle: Code Object
+// Location: GitHub (when committed)
+// Path: /components/samples/HelloSample.tsx
+
+export default function HelloSample() {
+  return (
+    <div style={{ 
+      padding: '20px', 
+      backgroundColor: '#f0f0f0',
+      borderRadius: '8px',
+      margin: '10px'
+    }}>
+      <h2>Hello from AMS Sample!</h2>
+      <p>This component demonstrates the AMS lifecycle.</p>
+      <small>ID: SAMPLE-HELLO-001 | Status: Implemented</small>
+    </div>
+  );
+}
